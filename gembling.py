@@ -27,7 +27,7 @@ bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode="HTML"))
 dp = Dispatcher()
 
 # Файл для хранения пользователей
-users_file = "/users_data.csv"
+users_file = "/data/users_data.csv"
 
 
 # Функция для загрузки данных пользователей из CSV-файла
